@@ -1,0 +1,75 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+div{
+    white-space:nowrap;
+}
+.header {
+    height: 79px;
+    width: 1533px;
+    color: #393939;
+    font-size: 13px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#fff;
+    /* border: 2px solid rgb(158, 145, 145); */
+    line-height: 79px;
+    display: inline-block;
+}
+.user-icon {
+    color: red;
+    background-color: red;
+    float: right;
+    background-image: url(https://yzeva.xmedu.cn/Content/images/preter.jpg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 10px 10px 0px;
+    vertical-align: middle;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.user-name {
+    /* background-color: red; */
+    float: right;
+    margin: 0px 100px 10px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.exit {
+    float: right;
+    font-size: 15px;
+    width: 150px;
+    font-weight: 700;
+    display: block;
+    color: #393939;
+}
+.icon1 {
+    float: right;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+.exit:hover {
+    animation: shake 800ms ease-in-out;
+}
+@keyframes shake {
+    10%, 90% { transform: translate3d(-1px, 0, 0); }
+    20%, 80% { transform: translate3d(+2px, 0, 0); }
+    30%, 70% { transform: translate3d(-4px, 0, 0); }
+    40%, 60% { transform: translate3d(+4px, 0, 0); }
+    50% { transform: translate3d(-4px, 0, 0); }
+}
+.tline {
+    width: 1280px;
+    height: 10px;
+    border-bottom: #f4f9f8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}

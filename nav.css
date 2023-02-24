@@ -1,0 +1,124 @@
+
+.nav {
+    height: 405px;
+    width: 220px;
+    float: left;
+    /* background-color:orange; */
+}
+.nav-head {
+    width: 205px;
+    height: 40px;
+    color: #999;
+    font: 16px "Microsoft YaHei";
+    padding-left: 15px;
+    background-color: #fff;
+    line-height: 40px;
+}
+.sd {
+    display:flex;
+    align-items: center;
+    width: 205px;
+    height: 59px;
+    color: #999;
+    font: 16px "Microsoft YaHei";
+    background-color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.sd:hover {
+    color: #f00134;
+    background-color: #fee5e9;
+    font-weight: 700;
+}
+.sd:hover .icon-sd{
+    background-image: url(photos/水电红.png);
+}
+.icon-sd {
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.icon-sq {
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.icon-wx {
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.icon-ss {
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.icon-sg {
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.sq {
+    display:flex;
+    align-items: center;
+    width: 205px;
+    height: 59px;
+    color: #999;
+    font: 16px "Microsoft YaHei";
+    background-color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.sq:hover {
+    color: #f00134;
+    background-color: #fee5e9;
+    font-weight: 700;
+}
+.wx {
+    display:flex;
+    align-items: center;
+    width: 205px;
+    height: 59px;
+    color: #999;
+    font: 16px "Microsoft YaHei";
+    background-color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.wx:hover {
+    color: #f00134;
+    background-color: #fee5e9;
+    font-weight: 700;
+}
+.ss {
+    display:flex;
+    align-items: center;
+    width: 205px;
+    height: 59px;
+    color: #999;
+    font: 16px "Microsoft YaHei";
+    background-color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.ss:hover {
+    color: #f00134;
+    background-color: #fee5e9;
+    font-weight: 700;
+}
+.sg {
+    display:flex;
+    align-items: center;
+    width: 205px;
+    height: 59px;
+    color: #999;
+    font: 16px "Microsoft YaHei";
+    background-color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.sg:hover {
+    color: #f00134;
+    background-color: #fee5e9;
+    font-weight: 700;
+}
